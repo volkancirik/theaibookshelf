@@ -149,7 +149,7 @@ footer:
 include:
   - .htaccess
   - _pages
-  - _book_reviews
+  - _bookshelf
 
 exclude:
   - "*.sublime-project"
@@ -293,9 +293,9 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _book_reviews
+  # _bookshelf
   - scope:
-      path: "_book_reviews"
+      path: "_bookshelf"
       type: pages
     values:
       layout: single
@@ -307,7 +307,7 @@ defaults:
 
 # Collections
 collections:
-  book_reviews:
+  bookshelf:
     output: true
     output_ext: .html
-    permalink: /book-reviews/:path/
+    permalink: /bookshelf/:path/

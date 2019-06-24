@@ -1,5 +1,5 @@
 --- 
-layout: book-reviews-template
+layout: bookshelf-template
 title: Deep Work - Rules for Focused Success in a Distracted World
 author: Cal Newport
 category: Self-Improvement
