@@ -113,3 +113,10 @@ defaults:
 # tag_archive:
 #   type: liquid
 #   path: /tags/
+
+# Collections
+collections:
+  book_reviews:
+    output: true
+    output_ext: .html
+    permalink: /book-reviews/:path/
