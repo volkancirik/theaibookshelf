@@ -149,6 +149,8 @@ footer:
 include:
   - .htaccess
   - _pages
+  - _book_reviews
+
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -281,7 +283,25 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _book_reviews
+  - scope:
+      path: "_book_reviews"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
       share: true
       related: true
 
