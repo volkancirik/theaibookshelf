@@ -9,7 +9,7 @@ description: > # this means to ignore newlines until "show_excerpts:"
   Book reviews related to Artificial Intelligence.
 favicon: "./favicon.ico" # set the favicon of the site 
 show_excerpts: false # set to true to show excerpts on the homepage
-
+google_analytics: UA-147663253-1
 moving:
   # avatar_url: "https://www.cs.cmu.edu/~vcirik/assets/img/prof_pic.jpg"
   about_you: a PhD student at Carnegie Mellon University working on language grounding.
@@ -25,9 +25,8 @@ jekyll_analytics:
   GoogleAnalytics:          # Add, if you want to track with Google Analytics
     id: UA-147663253-1
     anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
-    
+
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-analytics
