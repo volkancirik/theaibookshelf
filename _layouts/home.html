@@ -27,7 +27,7 @@ layout: default
           <span class="post-meta">
             {{ post.date | date: date_format }}
           </span>
-	  <img class="book-avatar" style="width:40px;height:80px src="{{ post.imgurl }}"/>
+	  <img class="book-avatar" style="width:40px;height:80px src="{{ post.imgurl | prepend: '/assets/img/'  }}"/>
           <a class="black-link post-link-layout" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
