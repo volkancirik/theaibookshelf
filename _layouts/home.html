@@ -23,14 +23,14 @@ layout: default
       {% endif %}
   
       <li>
-          {%- assign date_format = site.moving.date_format | default: "%b %-d, %Y" -%}
-          <span class="post-meta">
-            {{ post.date | date: date_format }}
-          </span>
-	  <img class="book-avatar" style="width:40px;height:80px" src="{{ post.imgurl | prepend: '/assets/img/' | prepend: site.url }}"/>
-          <a class="black-link post-link-layout" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
+        {%- assign date_format = site.moving.date_format | default: "%b %-d, %Y" -%}
+	<img class="book-avatar" style="width:90px;height:120px" src="{{ post.imgurl | prepend: '/assets/img/' | prepend: site.url }}"/>
+        <span class="post-meta">
+          {{ post.date | date: date_format }}
+        </span>
+        <a class="black-link post-link-layout" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
       </li>
   
       {% if forloop.last %}
