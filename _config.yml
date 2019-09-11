@@ -13,7 +13,7 @@ google_analytics: UA-147663253-1
 moving:
   # avatar_url: "https://www.cs.cmu.edu/~vcirik/assets/img/prof_pic.jpg"
   about_you: a PhD student at Carnegie Mellon University working on language grounding.
-  date_format: "%b %d"
+  date_format: "%d"
   back_to: "The Shelf"
 
   # generate social links in about page.
