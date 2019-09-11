@@ -21,7 +21,13 @@ moving:
     twitter: volkancirik
     github:  volkancirik
 
+jekyll_analytics:
+  GoogleAnalytics:          # Add, if you want to track with Google Analytics
+    id: UA-147663253-1
+    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
+    
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-analytics
