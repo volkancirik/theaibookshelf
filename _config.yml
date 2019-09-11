@@ -42,7 +42,7 @@ moving:
     #   instance: 
 
 # Build settings
-remote_theme: huangyz0918/moving # note, please use volkancirik/moving if you want to publish to Github Pages.
+remote_theme: volkancirik/moving # note, please use volkancirik/moving if you want to publish to Github Pages.
 
 plugins:
   - jekyll-feed
