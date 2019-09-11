@@ -42,7 +42,7 @@ moving:
     #   instance: 
 
 # Build settings
-remote_theme: volkancirik/theaibookshelf # note, please use volkancirik/moving if you want to publish to Github Pages.
+theme: moving # note, please use volkancirik/moving if you want to publish to Github Pages.
 
 plugins:
   - jekyll-feed
