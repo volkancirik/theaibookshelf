@@ -47,3 +47,4 @@ remote_theme: volkancirik/moving # note, please use volkancirik/moving if you wa
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-remote-theme
