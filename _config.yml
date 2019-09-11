@@ -1,3 +1,6 @@
+# Build settings
+remote_theme: volkancirik/moving # note, please use volkancirik/moving if you want to publish to Github Pages.
+
 title: The AI Bookshelf # The title of the blog
 author: Volkan Cirik # Your name 
 email: vcirik@cs.cmu.edu # your email shown in the footer
@@ -41,10 +44,6 @@ moving:
     # - username: 
     #   instance: 
 
-# Build settings
-remote_theme: volkancirik/moving # note, please use volkancirik/moving if you want to publish to Github Pages.
-
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-remote-theme
