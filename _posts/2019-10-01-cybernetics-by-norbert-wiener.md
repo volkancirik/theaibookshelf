@@ -1,5 +1,5 @@
 ---
 layout: post
-imgurl: "https://www.cs.cmu.edu/~vcirik/assets/img/prof_pic.jpg"
+imgurl: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347245279l/294941.jpg"
 ---
 loading...
