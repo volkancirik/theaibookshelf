@@ -2,9 +2,8 @@
 
 // Define defaults for each variable.
 
-$base-font-family: "Bitter", "Ubuntu", "FangSong", "仿宋", STFangSong,
-  "华文仿宋", serif;
-$base-font-size: 16px !default;
+$base-font-family: "Ubuntu", sans-serif;
+$base-font-size: 14px !default;
 $base-font-weight: 400 !default;
 $small-font-size: $base-font-size * 0.85 !default;
 $base-line-height: 1.8 !default;
