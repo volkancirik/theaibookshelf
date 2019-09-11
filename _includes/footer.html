@@ -7,10 +7,12 @@
             <li class="p-name">
               {%- if site.author -%}
                 <a class="black-link" href="{{ site.url }}/about.html">
-                  {{ site.author | escape }} {%- include social.html -%}
+                  {{ site.author | escape }}
                 </a>
               {%- endif -%}
             </li>
+	    </br>
+	    {%- include social.html -%}
           </ul>
         </div>
       </div>
