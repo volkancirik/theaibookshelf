@@ -31,6 +31,7 @@ layout: default
           <a class="black-link post-link-layout" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
+	  <img src="{{ post.imgurl | prepend: '/assets/img/' | prepend: site.url }}"/>
       </li>
   
       {% if forloop.last %}
