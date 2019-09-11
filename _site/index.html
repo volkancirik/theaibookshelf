@@ -1,364 +1,180 @@
-<!doctype html>
-<!--
-  Minimal Mistakes Jekyll Theme 4.16.4 by Michael Rose
-  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
-  Free for personal and commercial use under the MIT license
-  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
--->
-<html lang="en" class="no-js">
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="The AI Bookshelf" />
+<meta name="author" content="Volkan Cirik" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Book reviews related to Artificial Intelligence." />
+<meta property="og:description" content="Book reviews related to Artificial Intelligence." />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:site_name" content="The AI Bookshelf" />
+<script type="application/ld+json">
+{"description":"Book reviews related to Artificial Intelligence.","author":{"@type":"Person","name":"Volkan Cirik"},"@type":"WebSite","url":"http://localhost:4000/","name":"The AI Bookshelf","headline":"The AI Bookshelf","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="/./favicon.ico" />
+  <link rel="stylesheet" href="http://localhost:4000/assets/css/agate.css" />
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="The AI Bookshelf" /></head><body>
+    <main class="page-content" aria-label="Content">
+        <div class="wrapper">
+            <div class="home">
   <head>
-    <meta charset="utf-8">
-
-<!-- begin _includes/seo.html --><title>The AI Bookshelf</title>
-<meta name="description" content="An amazing website.">
-
-
-
-<meta property="og:type" content="website">
-<meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="The AI Bookshelf">
-<meta property="og:title" content="The AI Bookshelf">
-<meta property="og:url" content="https://theaibookshelf.com/">
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-
-
-<link rel="canonical" href="https://theaibookshelf.com/">
-
-
-
-
-
-
-
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Volkan Cirik",
-      "url": "https://theaibookshelf.com",
-      "sameAs": null
-    }
-  </script>
-
-
-
-
-
-
-
-<!-- end _includes/seo.html -->
-
-
-<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="The AI Bookshelf Feed">
-
-<!-- https://t.co/dKP3o1e -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-</script>
-
-<!-- For all browsers -->
-<link rel="stylesheet" href="/assets/css/main.css">
-
-<!--[if IE ]>
-  <style>
-    /* old IE unsupported flexbox fixes */
-    .greedy-nav .site-title {
-      padding-right: 3em;
-    }
-    .greedy-nav button {
-      position: absolute;
-      top: 0;
-      right: 0;
-      height: 100%;
-    }
-  </style>
-<![endif]-->
-
-
-
-    <!-- start custom head snippets -->
-
-<!-- insert favicons. use https://realfavicongenerator.net/ -->
-
-<!-- end custom head snippets -->
-
+      <title>The AI Bookshelf</title>
   </head>
-
-  <body class="layout--home">
-    <nav class="skip-links">
-  <h2 class="screen-reader-text">Skip links</h2>
-  <ul>
-    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
-    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
-    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
-  </ul>
-</nav>
-
-    <!--[if lt IE 9]>
-<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
-<![endif]-->
-
-    
-
-<div class="masthead">
-  <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        
-        <a class="site-title" href="/">The AI Bookshelf</a>
-        <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/book-reviews/" >Books Reviews</a>
-            </li><li class="masthead__menu-item">
-              <a href="/about" >About</a>
-            </li></ul>
-        
-        <button class="greedy-nav__toggle hidden" type="button">
-          <span class="visually-hidden">Toggle menu</span>
-          <div class="navicon"></div>
-        </button>
-        <ul class="hidden-links hidden"></ul>
-      </nav>
-    </div>
-  </div>
-</div>
-
-
-    <div class="initial-content">
-      
-
-
-
-<div id="main" role="main">
-  
-  <div class="sidebar sticky">
-  
-
-
-<div itemscope itemtype="https://schema.org/Person">
-
-  
-
-  <div class="author__content">
-    
-      <h3 class="author__name" itemprop="name">Volkan Cirik</h3>
-    
-    
-      <p class="author__bio" itemprop="description">
-        I am an amazing person.
-      </p>
-    
-  </div>
-
-  <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
-    <ul class="author__urls social-icons">
-      
-        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Somewhere</span>
-        </li>
-      
-
-      
-        
-          
-            <li><a href="mailto:your.name@email.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
-          
-        
-          
-            <li><a href="https://your-website.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
-          
-        
-          
-            <li><a href="https://twitter.com/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
-          
-        
-          
-            <li><a href="https://facebook.com/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
-          
-        
-          
-            <li><a href="https://github.com/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
-          
-        
-          
-            <li><a href="https://instagram.com/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
-          
-        
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      <!--
-  <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
-      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
-    </a>
-  </li>
--->
-    </ul>
-  </div>
-</div>
-
-  
-  </div>
-
-
-  <div class="archive">
-    
-      <h1 id="page-title" class="page__title"></h1>
-    
-    
-
-<h3 class="archive__subtitle">Recent posts</h3>
-
-
-  
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/blog/welcome-to-jekyll/" rel="permalink">Welcome to Jekyll!
-</a>
-      
-    </h2>
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  less than 1 minute read
+  <div class="home-title">
+    <p class="home-heading">The AI Bookshelf</p>
+    <p class="home-sub-heading">Book reviews related to Artificial Intelligence.
 </p>
-    
-    <p class="archive__item-excerpt" itemprop="description">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different wa...</p>
-  </article>
-</div>
+  </div><ul class="post-list">
+      
+      
+      
+  
+      
+      <h2 id="2019-ref" class="post-year">2019</h2>
+      <ul>
+      
+  
+      <li><span class="post-meta">
+            Aug 24
+          </span>
+          <a class="black-link post-link-layout" href="/misc/2019/08/24/love-xinhai.html">
+            Love Letter to Xinhai
+          </a>
+      </li>
+  
+      
+          
+      
+  
+      
+      
+  
+      
+  
+      <li><span class="post-meta">
+            Aug 23
+          </span>
+          <a class="black-link post-link-layout" href="/misc/2019/08/23/language-tests.html">
+            Language Tests
+          </a>
+      </li>
+  
+      
+          
+          </ul>
+          <h2 id="2016-ref" class="post-year">2016</h2>
+          <ul>
+          
+      
+  
+      
+      
+  
+      
+  
+      <li><span class="post-meta">
+            May 23
+          </span>
+          <a class="black-link post-link-layout" href="/misc/2016/05/23/super-long-article.html">
+            Long Article
+          </a>
+      </li>
+  
+      
+          
+      
+  
+      
+      
+  
+      
+  
+      <li><span class="post-meta">
+            Apr 24
+          </span>
+          <a class="black-link post-link-layout" href="/misc/2016/04/24/code-highlight-tests.html">
+            Code Highlight Tests
+          </a>
+      </li>
+  
+      
+          
+      
+  
+      
+      
+  
+      
+  
+      <li><span class="post-meta">
+            Mar 20
+          </span>
+          <a class="black-link post-link-layout" href="/junk/2016/03/20/post-content-styles.html">
+            Post Content Styles
+          </a>
+      </li>
+  
+      
+          
+      
+  
+      
+      
+  
+      
+  
+      <li><span class="post-meta">
+            Mar 19
+          </span>
+          <a class="black-link post-link-layout" href="/misc/2016/03/19/super-short-article.html">
+            Short Article
+          </a>
+      </li>
+  
+      
+          
+      
+  
+      
+      
+  
+      
+  
+      <li><span class="post-meta">
+            Feb 06
+          </span>
+          <a class="black-link post-link-layout" href="/2016/02/06/welcome-to-jekyll.html">
+            Welcome To Jekyll
+          </a>
+      </li>
+  
+      
+      </ul>
+      
+  
+  </ul></div>
 
-
-
-
-
-
-  </div>
-</div>
+        </div>
+    </main><footer class="site-footer h-card">
+    <data class="u-url" href="/"></data>
+    <div class="wrapper">
+      <div class="footer-col-wrapper">
+        <div class="footer-col">
+          <ul class="contact-list">
+            <li class="p-name"><a class="black-link" href="http://localhost:4000/about.html">
+                  Volkan Cirik 
+                </a></li><li>
+              <a class="u-email black-link" href="mailto:vcirik@cs.cmu.edu">vcirik@cs.cmu.edu</a></li></ul>
+        </div>
+      </div>
     </div>
-
-    
-
-    <div id="footer" class="page__footer">
-      <footer>
-        <!-- start custom footer snippets -->
-
-<!-- end custom footer snippets -->
-        <div class="page__footer-follow">
-  <ul class="social-icons">
-    
-      <li><strong>Follow:</strong></li>
-    
-
-    
-      
-        
-          <li><a href="https://twitter.com/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
-        
-      
-        
-          <li><a href="https://facebook.com/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
-        
-      
-        
-          <li><a href="https://github.com/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
-        
-      
-    
-
-    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
-  </ul>
-</div>
-
-<div class="page__footer-copyright">&copy; 2019 Volkan Cirik. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
-
-      </footer>
-    </div>
-
-    
-  <script src="/assets/js/main.min.js"></script>
-  <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
-
-
-
-
-
-
-
-
-
-
-  </body>
+  </footer></body>
 </html>
