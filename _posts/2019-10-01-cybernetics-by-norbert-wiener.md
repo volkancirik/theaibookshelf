@@ -1,5 +1,5 @@
 ---
 layout: post
-imgurl1: "cybernetics.jpg"
+imgurl: "cybernetics.jpg"
 ---
 loading...
