@@ -2,6 +2,7 @@
 
 <div class="social">
   <span class="contacticon center">
+    {% if social.home %}<a href="{{ social.home }}" target="_blank" title="Home"><i class="fab fa-home"></i></a>{% endif %}
     {% if social.github %}<a href="https://github.com/{{ social.github }}" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>{% endif %}
     {% if social.twitter %}<a href="https://twitter.com/{{ social.twitter }}" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>{% endif %}
   </span>
