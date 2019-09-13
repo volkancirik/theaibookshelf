@@ -26,6 +26,9 @@ jekyll_analytics:
     id: UA-147663253-1
     anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
 
+font-awesome:
+  assets: true
+
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
