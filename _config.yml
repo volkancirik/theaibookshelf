@@ -20,7 +20,7 @@ moving:
   social_links:
     twitter: volkancirik
     github:  volkancirik
-    home: https://www.cs.cmu.edu/~vcirik/
+    personal: https://www.cs.cmu.edu/~vcirik/
 
 jekyll_analytics:
   GoogleAnalytics:          # Add, if you want to track with Google Analytics
