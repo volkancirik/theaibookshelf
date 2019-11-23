@@ -1,8 +1,0 @@
-{%- assign social = site.moving.social_links -%}
-<div class="social">
-  <span class="contacticon center">
-    {% if social.twitter %}<a href="https://twitter.com/{{ social.twitter | cgi_escape | escape }}" target="_blank" title="Twitter"><i class="fab fa-twitter fa-2x"></i></a>{% endif %}
-    {% if social.github %}<a href="https://github.com/{{ social.github | cgi_escape | escape }}" target="_blank" title="GitHub"><i class="fab fa-github fa-2x"></i></a>{% endif %}
-    {% if social.linkedin %}<a href="https://www.linkedin.com/in/{{ social.linkedin | cgi_escape | escape}}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin fa-2x"></i></a>{% endif %}
-  </span>
-</div>

@@ -1,33 +1,25 @@
-# Build settings
-remote_theme: volkancirik/moving # note, please use volkancirik/moving if you want to publish to Github Pages.
-
-title: The AI Bookshelf # The title of the blog
-author: Volkan Cirik # Your name 
-email: vcirik@cs.cmu.edu # your email shown in the footer
-url: https://theaibookshelf.com # this is your site's root address.
-description: > # this means to ignore newlines until "show_excerpts:"
-  Book reviews related to Artificial Intelligence.
-favicon: "./favicon.ico" # set the favicon of the site 
-show_excerpts: false # set to true to show excerpts on the homepage
+baseurl:
+title: The AI Bookshelf
+subtitle: The AI Bookshelf
+author: volkan cirik
+simple_search: http://google.com/search
+description: Chronological summaries of books on AI
+name: theaibookshelf
+markdown: kramdown
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+permalink: /articles/:short_year/:title
+timezone: America/New_York
+excerpt_separator: <!--more-->  # you can specify your own separator, of course.
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'UploadToGithub.Rakefile', 'README.md']
+post:
+  template: _post.txt
+  extension: md
+editor: gvim
+git:
+  branch: master
+transfer:
+  command: rsync
+  settings: -av
+  source: _site/
+  destination: ~/Git/clayh53.github.com/
 google_analytics: UA-147663253-1
-moving:
-  # avatar_url: "https://www.cs.cmu.edu/~vcirik/assets/img/prof_pic.jpg"
-  # about_you: a PhD student at Carnegie Mellon University working on language grounding.
-  date_format: ""
-  back_to: "The Shelf"
-
-  # generate social links in about page.
-  social_links:
-    twitter: volkancirik
-    github:  volkancirik
-    linkedin: volkan-cirik-a5894623
-
-jekyll_analytics:
-  GoogleAnalytics:          # Add, if you want to track with Google Analytics
-    id: UA-147663253-1
-    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
-
-plugins:
-  - jekyll-remote-theme
-  - jekyll-feed
-  - jekyll-seo-tag

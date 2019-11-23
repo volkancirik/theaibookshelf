@@ -1,19 +1,16 @@
-<footer class="site-footer h-card">
-    <data class="u-url" href="{{ "/" | relative_url }}"></data>
-    <div class="wrapper">
-      <div class="footer-col-wrapper">
-        <div class="footer-col">
-          <ul class="contact-list">
-            <li class="p-name">
-              {%- if site.author -%}
-                <a class="black-link" href="{{ site.url }}/about.html">
-                  {{ site.author | escape }}
-                </a>
-              {%- endif -%}
-            </li>
-	    {%- include social.html -%}
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
+<footer>
+  <!-- <hr class="slender"> -->
+  <ul class="footer-links">
+    <li><a href="mailto:vcirik@cs.cmu.edu"><span class="icon-mail"></span></a></li>    
+    {% for entry in site.data.social %}
+      <li>
+        <a href="{{ entry.link }}"><span class="{{ entry.icon }}"></span></a>
+      </li>
+    {% endfor %}
+  </ul>
+<div class="credits">
+<!-- <span>&copy; {{ site.time | date: '%Y' }} &nbsp;&nbsp;{{site.author | upcase }}</span></br> <br> -->
+<span>&copy; {{ site.time | date: '%Y' }} &nbsp;&nbsp;<a href="{{site.siteurl}}/about">{{site.author }}</a></span></br> <br>
+<span>This site created with the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme</a> in <a href="//jekyllrb.com">Jekyll</a>.</span> 
+</div>  
+</footer>
