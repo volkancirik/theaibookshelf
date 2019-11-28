@@ -5,8 +5,8 @@
     <description>Chronological summaries of books on AI</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 28 Nov 2019 10:57:30 -0500</pubDate>
-    <lastBuildDate>Thu, 28 Nov 2019 10:57:30 -0500</lastBuildDate>
+    <pubDate>Thu, 28 Nov 2019 11:07:43 -0500</pubDate>
+    <lastBuildDate>Thu, 28 Nov 2019 11:07:43 -0500</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -14,8 +14,8 @@
         <description>&lt;p&gt;loading…&lt;/p&gt;
 </description>
         <pubDate>Tue, 01 Oct 2019 00:00:00 -0400</pubDate>
-        <link>/articles/19/cybernetics-by-norbert-wiener</link>
-        <guid isPermaLink="true">/articles/19/cybernetics-by-norbert-wiener</guid>
+        <link>/articles/cybernetics-by-norbert-wiener</link>
+        <guid isPermaLink="true">/articles/cybernetics-by-norbert-wiener</guid>
         
         
       </item>
@@ -435,8 +435,8 @@ etc..
 
 </description>
         <pubDate>Thu, 19 Feb 2015 00:00:00 -0500</pubDate>
-        <link>/articles/15/tufte-style-jekyll-blog</link>
-        <guid isPermaLink="true">/articles/15/tufte-style-jekyll-blog</guid>
+        <link>/articles/tufte-style-jekyll-blog</link>
+        <guid isPermaLink="true">/articles/tufte-style-jekyll-blog</guid>
         
         
       </item>
