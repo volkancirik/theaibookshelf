@@ -45,6 +45,7 @@ ga('send', 'pageview');
 <link rel="shortcut icon" type="image/png" href="/assets/img/aibookshelf.png">
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu" />
   <link rel="stylesheet" type="text/css" href="/css/tufte.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
   <!--- Header and nav template site-wide -->
@@ -74,7 +75,8 @@ ga('send', 'pageview');
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title">On this page</h4></header>
-              <ul class="toc__menu">
+              
+<ul class="toc__menu">
   <li><a href="#">Tufte Style Jekyll Blog</a>
     <ul>
       <li><a href="#introduction">Introduction</a></li>
@@ -118,6 +120,42 @@ ga('send', 'pageview');
     </ul>
   </li>
 </ul>
+<div id="share-bar">
+    <div id="share-title">Share This Post</div>
+    <div class="share-buttons">
+        <a  href="https://www.facebook.com/sharer/sharer.php?u=/articles/15/tufte-style-jekyll-blog"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            titlEcus="Share on Facebook" >
+            <i class="fa fa-facebook-official share-button"></i>
+        </a>
+
+        <a  href="https://twitter.com/intent/tweet?text=Tufte Style Jekyll Blog&url=/articles/15/tufte-style-jekyll-blog"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share on Twitter" >
+            <i class="fa fa-twitter share-button"></i>
+        </a>
+
+        <a  href="http://www.reddit.com/submit?url=/articles/15/tufte-style-jekyll-blog"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share on Reddit" >
+            <i class="fa fa-reddit-alien share-button"></i>
+        </a>
+
+        <a  href="https://www.linkedin.com/shareArticle?mini=true&url=/articles/15/tufte-style-jekyll-blog&title=Tufte Style Jekyll Blog&summary=&source=The AI Bookshelf"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share on LinkedIn" >
+            <i class="fa fa-linkedin share-button"></i>
+        </a>
+
+        <a  href="mailto:?subject=Tufte Style Jekyll Blog&amp;body=Check out this site /articles/15/tufte-style-jekyll-blog"
+            title="Share via Email" >
+            <i class="fa fa-envelope share-button"></i>
+        </a>
+    </div>
+
+</div>
+
+
             </nav>
           </aside>
         
@@ -538,8 +576,7 @@ etc..
 
 
 
-
-    </article>
+  </article>
   <span class="print-footer">Tufte Style Jekyll Blog - February 19, 2015 - volkan cirik</span>
   <footer>
   <!-- <hr class="slender"> -->
