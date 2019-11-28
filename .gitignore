@@ -2,3 +2,6 @@ _site
 .sass-cache
 .DS\_Store
 config.codekit
+.jekyll-cache*
+key.pem
+cert.cer
