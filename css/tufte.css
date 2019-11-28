@@ -15,6 +15,10 @@
 @font-face { font-family: ETbookRomanOldStyle; src: url("../fonts/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot"); src: url("../fonts/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot?#iefix") format("embedded-opentype"), url("../fonts/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.woff") format("woff"), url("../fonts/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.ttf") format("truetype"), url("../fonts/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.svg#etbemboromanosf") format("svg"); font-weight: normal; font-style: normal; }
 
 /* This file contains all the constants for colors and font styles */
+.small_image { width: 45px; height: 90px; }
+
+@media only screen and (min-width: 400px) { .small_image { width: 90px; height: 120px; } }
+
 /** Syntax highlighting styles */
 .highlight { margin-bottom: 15px; }
 
