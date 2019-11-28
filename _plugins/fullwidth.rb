@@ -4,7 +4,6 @@
 #
 module Jekyll
   class RenderFullWidthTag < Liquid::Tag
-    
     require "shellwords"
 
     def initialize(tag_name, text, tokens)
@@ -19,7 +18,7 @@ module Jekyll
         "<figcaption>#{@text[1]}</figcaption></figure>"
       else
         "<figure class='fullwidth'><img src='#{baseurl}/#{@text[0]}'/>"+
-        "<figcaption>#{@text[1]}</figcaption></figure>"
+        "<figcaption>#{@text[1]}</figcaption></figure><br>"
       end
     end
   end

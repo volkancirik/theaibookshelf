@@ -16,6 +16,16 @@ nav_exclude: true
 @import "../_sass/fonts";
 @import "../_sass/settings";
 @import "../_sass/syntax-highlighting";
+@import "../_sass/variables";
+@import "vendor/breakpoint/breakpoint";
+@import "vendor/magnific-popup/magnific-popup"; // Magnific Popup
+@import "vendor/susy/susy";
+@import "../_sass/mixins";
+
+@import "../_sass/sidebar";
+@import "../_sass/navigation";
+
+@import "../_sass/utilities";
 
 // Global Resets
 //
@@ -28,7 +38,21 @@ nav_exclude: true
   clear: both;
 }
 
-html, body { height: 100%; }
+html
+{
+    background-color: $bg-color;
+    background: $bg-color;
+}
+
+body
+{
+    background-color: $bg-color;
+    background: $bg-color;
+}
+
+html, body {
+    height: 100%;
+ }
 
 // First significant deviation from CSS on tufte.css site - variable font size as browser width expands or contracts
 //html { font-size: 15px; }
@@ -55,7 +79,7 @@ html{
 
 // sets link style according to values in _settings.scss
 .mathblock{
-  font-size: 1.3rem;
+  font-size: $content-font-size-small;
 }
 a {
   color: $contrast-color;
@@ -76,13 +100,13 @@ p > a { @if $link-style == underline
     }
   }
 
-body { width: 87.5%;
-       margin-left: auto;
+body { width: 75%;
+       margin-left: 7.5%;
        margin-right: auto;
-       padding-left: 12.5%;
+       padding-left: 0.0%;
 //       font-family: et-bembo, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
        font-family: "Ubuntu", sans-serif;
-       background-color: $bg-color;
+       //background-color: $bg-color;
        color: $text-color;
        max-width: 1400px;
        counter-reset: sidenote-counter; }
@@ -93,19 +117,19 @@ body { width: 87.5%;
 h1 { font-weight: 400;
      margin-top: 1.568rem;
      margin-bottom: 1.568rem;
-     font-size: 2.5rem;
+     font-size: 2.3rem;
      line-height: 0.784; }
 
 h2 { font-style: italic;
      font-weight: 400;
      margin-top: 1.866666666666667rem;
      margin-bottom: 0;
-     font-size: 2.1rem;
+     font-size: 1.9rem;
      line-height: 0.933333333333333; }
 
 h3 { font-style: italic;
      font-weight: 400;
-     font-size: 1.8rem;
+     font-size: 1.7rem;
      margin-top: 2.1777777777777778rem;
      margin-bottom: 0;
      line-height: 1.08888888888889; }
@@ -115,19 +139,19 @@ h3 { font-style: italic;
 p .subtitle { font-style: italic;
              margin-top: 2.1777777777777778rem;
              margin-bottom: 2.1777777777777778rem;
-             font-size: 1.8rem;
+             font-size: 1.6rem;
              display: block;
              line-height: 1.08888888888889; }
 
 
-p, ol, ul { font-size: 1.4rem; }
+p, ol, ul { font-size: $content-font-size; }
 
 p, li { line-height: 2rem;
         margin-top: 1.4rem;
         padding-right: 2rem; //removed because,  why?
         vertical-align: baseline; }
 
-blockquote p {  font-size: 1.1rem;
+blockquote p {  font-size: $content-font-size-small;
                 line-height: 1.78181818;
                 margin-top: 1.78181818rem;
                 margin-bottom: 1.78181818rem;
@@ -143,7 +167,7 @@ blockquote footer { width: 45%;
         letter-spacing: .03em; }
 
 pre, pre code, p code, p pre code { font-family: $code-font;  // removed .code 'class' since code is an actual html tag
-        font-size: 1.2rem;                   // also added p code, p pre code and pre selector to account for Markdown parsing
+				    font-size: $content-font-size;                   // also added p code, p pre code and pre selector to account for Markdown parsing
         line-height: 1.71428571;        // of triple backticks plus rationalized line-heights and margins
         margin-top: 1.71428571rem; }
 
@@ -153,17 +177,17 @@ h1 code, h2 code, h3 code { font-size: 0.80em; } //left in for no real reason
 /*-- Table styling section - For Tufte-Jekyll, booktabs style is default for Markdown tables  --*/
 
 table, table.booktabs { width: auto;  //making booktabs style tables the unstyled default in case someone uses Markdown styling
-                 margin: 0 auto;
-                 border-spacing: 0px;
-                 border-top: 2px solid $border-color;
-                 border-bottom: 2px solid $border-color; }
+			margin-left: 50px;
+			border-spacing: 0px;
+			border-top: 2px solid $border-color;
+			border-bottom: 2px solid $border-color; }
 
 .booktabs th, th { border-bottom: 1px solid $border-color;
                padding: 0.65ex 0.5em 0.4ex 0.5em;
                font-weight: normal;
                text-align: center; }
 
-th, td{ font-size: 1.2rem;
+th, td{ font-size: $content-font-size;
         line-height: 1.71428571;  }
 
 .booktabs th.cmid, th { border-bottom: 1px solid lighten($border-color, 25%); }
@@ -239,16 +263,16 @@ img { max-width: 100%; }
 
 .sidenote, .marginnote { float: right;
                          clear: right;
-                         margin-right: -60%;
-                         width: 50%;
+                         margin-right: -40%;
+                         width: 35%;
                          margin-top: 0;
                          margin-bottom: 1.96rem;
-                         font-size: 1.0rem;
+                         font-size: $note-font-size;
                          line-height: 1.96; //changed to bring line heights into rational pattern
                          vertical-align: baseline;
                          position: relative; }
 
-li .sidenote, li .marginnote{ margin-right: -80%; } //added to allow for the fact that lists are indented and marginnotes and sidenotes push to right
+li .sidenote, li .marginnote{ margin-right: -60%; } //added to allow for the fact that lists are indented and marginnotes and sidenotes push to right
 
 blockquote .sidenote, blockquote .marginnote { margin-right: -79% }
 
@@ -261,7 +285,7 @@ blockquote .sidenote, blockquote .marginnote { margin-right: -79% }
                                            vertical-align: baseline; }
 
 .sidenote-number:after { content: counter(sidenote-counter);
-                         font-size: 1rem;
+                         font-size: 0.9rem;
                          top: -0.5rem;
                          left: 0.1rem; }
 
@@ -269,7 +293,7 @@ blockquote .sidenote, blockquote .marginnote { margin-right: -79% }
                    color: $contrast-color;
                    top: 0rem; } //removed superscripting for numerical reference in sidenote
 
-p, footer, div.table-wrapper, div.mathblock{ width: 55%; }
+p, footer, div.table-wrapper, div.mathblock{ width: 70%; }
 
 div.table-wrapper { overflow-x: auto; } //changed all overflow values to 'auto' so scroll bars appear only as needed
 
@@ -295,7 +319,7 @@ pre, pre code, p pre code { width: 52.5%;
 .full-width { .sidenote, .sidenote-number, .marginnote { display: none; } }
 
 span.newthought { font-variant: small-caps;
-                  font-size: 1.2em;
+                  font-size: $content-font-size;
                   letter-spacing: 0.05rem; }
 
 input.margin-toggle { display: none; }
