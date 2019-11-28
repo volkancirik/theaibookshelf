@@ -1,0 +1,45 @@
+I"<<ul class="toc__menu">
+  <li><a href="#">Tufte Style Jekyll Blog</a>
+    <ul>
+      <li><a href="#introduction">Introduction</a></li>
+      <li><a href="#jekyll-customizations">Jekyll customizations</a>
+        <ul>
+          <li><a href="#the-sass-settings-file">The SASS settings file</a>
+            <ul>
+              <li><a href="#test-for-toc-with-3-indentations">Test for TOC with 3 indentations</a>
+                <ul>
+                  <li><a href="#test-for-toc-with-4-indentations">Test for TOC with 4 indentations</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="#fundamentals">Fundamentals</a>
+        <ul>
+          <li><a href="#color">Color</a></li>
+          <li><a href="#headings">Headings</a></li>
+          <li><a href="#text">Text</a></li>
+          <li><a href="#lists">Lists</a></li>
+        </ul>
+      </li>
+      <li><a href="#figures">Figures</a>
+        <ul>
+          <li><a href="#margin-figures">Margin Figures</a></li>
+          <li><a href="#full-width-figures">Full Width Figures</a></li>
+          <li><a href="#main-column-figures">Main Column Figures</a></li>
+        </ul>
+      </li>
+      <li><a href="#sidenotes-and-margin-notes">Sidenotes and Margin notes</a>
+        <ul>
+          <li><a href="#sidenotes">Sidenotes</a></li>
+          <li><a href="#margin-notes">Margin notes</a></li>
+        </ul>
+      </li>
+      <li><a href="#equations">Equations</a></li>
+      <li><a href="#tables">Tables</a></li>
+      <li><a href="#code">Code</a></li>
+    </ul>
+  </li>
+</ul>
+:ET
