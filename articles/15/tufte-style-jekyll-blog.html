@@ -30,11 +30,11 @@
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-  <!-- <link rel="stylesheet" type="text/css" href="/css/print.css" media="print"> -->
+  <!-- <link rel="stylesheet" type="text/css" href="theaibookshelf.com/css/print.css" media="print"> -->
 
-  <link rel="canonical" href="/articles/15/tufte-style-jekyll-blog">
+  <link rel="canonical" href="theaibookshelf.com/articles/15/tufte-style-jekyll-blog">
 
-  <link rel="alternate" type="application/rss+xml" title="The AI Bookshelf" href="/feed.xml" /><script>
+  <link rel="alternate" type="application/rss+xml" title="The AI Bookshelf" href="theaibookshelf.com/feed.xml" /><script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -42,26 +42,27 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-147663253-1', 'auto');
 ga('send', 'pageview');
 </script>
-<link rel="shortcut icon" type="image/png" href="/assets/img/aibookshelf.png">
+<link rel="shortcut icon" type="image/png" href="theaibookshelf.com/assets/img/aibookshelf.png">
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu" />
-  <link rel="stylesheet" type="text/css" href="/css/tufte.css">
+  <link rel="stylesheet" type="text/css" href="theaibookshelf.com/css/tufte.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
   <!--- Header and nav template site-wide -->
 <header>
     <nav class="group">
-	<a href="/"><img class="badge" src="/assets/img/aibookshelf.png" alt="AC"></a>
+	<a href="theaibookshelf.com/"><img class="badge" src="theaibookshelf.com/assets/img/aibookshelf.png" alt="AC"></a>
 	
 		
   	
 		
-	            <a href="/">The AI Bookshelf</a>
+	            <a href="theaibookshelf.com/">The AI Bookshelf</a>
 	    
   	
 		
   	
 		
-	            <a href="/css/print.css"></a>
+	            <a href="theaibookshelf.com/css/print.css"></a>
 	    
   	
 		
@@ -74,7 +75,8 @@ ga('send', 'pageview');
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title">On this page</h4></header>
-              <ul class="toc__menu">
+              
+<ul class="toc__menu">
   <li><a href="#">Tufte Style Jekyll Blog</a>
     <ul>
       <li><a href="#introduction">Introduction</a></li>
@@ -118,6 +120,42 @@ ga('send', 'pageview');
     </ul>
   </li>
 </ul>
+<div id="share-bar">
+    <div id="share-title">Share This Post</div>
+    <div class="share-buttons">
+        <a  href="https://www.facebook.com/sharer/sharer.php?u=theaibookshelf.com/articles/15/tufte-style-jekyll-blog"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            titlEcus="Share on Facebook" >
+            <i class="fa fa-facebook-official share-button"></i>
+        </a>
+
+        <a  href="https://twitter.com/intent/tweet?text=Tufte Style Jekyll Blog&url=theaibookshelf.com/articles/15/tufte-style-jekyll-blog"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share on Twitter" >
+            <i class="fa fa-twitter share-button"></i>
+        </a>
+
+        <a  href="http://www.reddit.com/submit?url=theaibookshelf.com/articles/15/tufte-style-jekyll-blog"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share on Reddit" >
+            <i class="fa fa-reddit-alien share-button"></i>
+        </a>
+
+        <a  href="https://www.linkedin.com/shareArticle?mini=true&url=theaibookshelf.com/articles/15/tufte-style-jekyll-blog&title=Tufte Style Jekyll Blog&summary=&source=The AI Bookshelf"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share on LinkedIn" >
+            <i class="fa fa-linkedin share-button"></i>
+        </a>
+
+        <a  href="mailto:?subject=Tufte Style Jekyll Blog&amp;body=Check out this site theaibookshelf.com/articles/15/tufte-style-jekyll-blog"
+            title="Share via Email" >
+            <i class="fa fa-envelope share-button"></i>
+        </a>
+    </div>
+
+</div>
+
+
             </nav>
           </aside>
         
@@ -219,7 +257,7 @@ While this Jekyll theme supports more specific headings, if you feel the urge to
 
 <h3 id="margin-figures">Margin Figures</h3>
 
-<p><label for="mf-id-1" class="margin-toggle">⊕</label><input type="checkbox" id="mf-id-1" class="margin-toggle" /><span class="marginnote"><img class="fullwidth" src="/assets/img/rhino.png" /><br />F.J. Cole, “The History of Albrecht Dürer’s Rhinoceros in Zoological Literature,” <em>Science, Medicine, and History: Essays on the Evolution of Scientific Thought and Medical Practice</em> (London, 1953), ed. E. Ashworth Underwood, 337-356. From page 71 of Edward Tufte’s <em>Visual Explanations</em>.</span>Images and graphics play an integral role in Tufte’s work. To place figures in the margin, use the custom margin figure liquid tag included in the <code class="highlighter-rouge">_plugins</code> directory like so:</p>
+<p><label for="mf-id-1" class="margin-toggle">⊕</label><input type="checkbox" id="mf-id-1" class="margin-toggle" /><span class="marginnote"><img class="fullwidth" src="theaibookshelf.com/assets/img/rhino.png" /><br />F.J. Cole, “The History of Albrecht Dürer’s Rhinoceros in Zoological Literature,” <em>Science, Medicine, and History: Essays on the Evolution of Scientific Thought and Medical Practice</em> (London, 1953), ed. E. Ashworth Underwood, 337-356. From page 71 of Edward Tufte’s <em>Visual Explanations</em>.</span>Images and graphics play an integral role in Tufte’s work. To place figures in the margin, use the custom margin figure liquid tag included in the <code class="highlighter-rouge">_plugins</code> directory like so:</p>
 
 <p><code class="highlighter-rouge">{% marginfigure 'mf-id-whatever' 'assets/img/rhino.png' 'F.J. Cole, “The History of Albrecht Dürer’s Rhinoceros in Zoological Literature,” *Science, Medicine, and History: Essays on the Evolution of Scientific Thought and Medical Practice* (London, 1953), ed. E. Ashworth Underwood, 337-356. From page 71 of Edward Tufte’s *Visual Explanations*.'  %}</code>.</p>
 
@@ -233,7 +271,7 @@ While this Jekyll theme supports more specific headings, if you feel the urge to
 
 <p>Yields this:</p>
 
-<figure class="fullwidth"><img src="/assets/img/napoleons-march.png" /><figcaption>Napoleon's March (Edward Tufte’s English translation)</figcaption></figure>
+<figure class="fullwidth"><img src="theaibookshelf.com/assets/img/napoleons-march.png" /><figcaption>Napoleon's March (Edward Tufte’s English translation)</figcaption></figure>
 <p><br /></p>
 
 <h3 id="main-column-figures">Main Column Figures</h3>
@@ -244,7 +282,7 @@ While this Jekyll theme supports more specific headings, if you feel the urge to
 
 <p>yields this:</p>
 
-<figure><figcaption>From Edward Tufte, *Visual Display of Quantitative Information*, page 92</figcaption><img src="/assets/img/exports-imports.png" /></figure>
+<figure><figcaption>From Edward Tufte, *Visual Display of Quantitative Information*, page 92</figcaption><img src="theaibookshelf.com/assets/img/exports-imports.png" /></figure>
 
 <h2 id="sidenotes-and-margin-notes">Sidenotes and Margin notes</h2>
 
@@ -538,8 +576,7 @@ etc..
 
 
 
-
-    </article>
+  </article>
   <span class="print-footer">Tufte Style Jekyll Blog - February 19, 2015 - volkan cirik</span>
   <footer>
   <!-- <hr class="slender"> -->

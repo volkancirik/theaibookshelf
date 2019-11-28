@@ -3,11 +3,10 @@
   <channel>
     <title>The AI Bookshelf</title>
     <description>Chronological summaries of books on AI</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 27 Nov 2019 22:23:11 -0500</pubDate>
-    <lastBuildDate>Wed, 27 Nov 2019 22:23:11 -0500</lastBuildDate>
-
+    <link>theaibookshelf.com/</link>
+    <atom:link href="theaibookshelf.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 28 Nov 2019 10:39:39 -0500</pubDate>
+    <lastBuildDate>Thu, 28 Nov 2019 10:39:39 -0500</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -15,8 +14,8 @@
         <description>&lt;p&gt;loading…&lt;/p&gt;
 </description>
         <pubDate>Tue, 01 Oct 2019 00:00:00 -0400</pubDate>
-        <link>/articles/19/cybernetics-by-norbert-wiener</link>
-        <guid isPermaLink="true">/articles/19/cybernetics-by-norbert-wiener</guid>
+        <link>theaibookshelf.com/articles/19/cybernetics-by-norbert-wiener</link>
+        <guid isPermaLink="true">theaibookshelf.com/articles/19/cybernetics-by-norbert-wiener</guid>
         
         
       </item>
@@ -117,7 +116,7 @@ While this Jekyll theme supports more specific headings, if you feel the urge to
 
 &lt;h3 id=&quot;margin-figures&quot;&gt;Margin Figures&lt;/h3&gt;
 
-&lt;p&gt;&lt;label for=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/rhino.png&quot; /&gt;&lt;br /&gt;F.J. Cole, “The History of Albrecht Dürer’s Rhinoceros in Zoological Literature,” &lt;em&gt;Science, Medicine, and History: Essays on the Evolution of Scientific Thought and Medical Practice&lt;/em&gt; (London, 1953), ed. E. Ashworth Underwood, 337-356. From page 71 of Edward Tufte’s &lt;em&gt;Visual Explanations&lt;/em&gt;.&lt;/span&gt;Images and graphics play an integral role in Tufte’s work. To place figures in the margin, use the custom margin figure liquid tag included in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_plugins&lt;/code&gt; directory like so:&lt;/p&gt;
+&lt;p&gt;&lt;label for=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;theaibookshelf.com/assets/img/rhino.png&quot; /&gt;&lt;br /&gt;F.J. Cole, “The History of Albrecht Dürer’s Rhinoceros in Zoological Literature,” &lt;em&gt;Science, Medicine, and History: Essays on the Evolution of Scientific Thought and Medical Practice&lt;/em&gt; (London, 1953), ed. E. Ashworth Underwood, 337-356. From page 71 of Edward Tufte’s &lt;em&gt;Visual Explanations&lt;/em&gt;.&lt;/span&gt;Images and graphics play an integral role in Tufte’s work. To place figures in the margin, use the custom margin figure liquid tag included in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_plugins&lt;/code&gt; directory like so:&lt;/p&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;{% marginfigure 'mf-id-whatever' 'assets/img/rhino.png' 'F.J. Cole, “The History of Albrecht Dürer’s Rhinoceros in Zoological Literature,” *Science, Medicine, and History: Essays on the Evolution of Scientific Thought and Medical Practice* (London, 1953), ed. E. Ashworth Underwood, 337-356. From page 71 of Edward Tufte’s *Visual Explanations*.'  %}&lt;/code&gt;.&lt;/p&gt;
 
@@ -131,7 +130,7 @@ While this Jekyll theme supports more specific headings, if you feel the urge to
 
 &lt;p&gt;Yields this:&lt;/p&gt;
 
-&lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;/assets/img/napoleons-march.png&quot; /&gt;&lt;figcaption&gt;Napoleon's March (Edward Tufte’s English translation)&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;theaibookshelf.com/assets/img/napoleons-march.png&quot; /&gt;&lt;figcaption&gt;Napoleon's March (Edward Tufte’s English translation)&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;main-column-figures&quot;&gt;Main Column Figures&lt;/h3&gt;
@@ -142,7 +141,7 @@ While this Jekyll theme supports more specific headings, if you feel the urge to
 
 &lt;p&gt;yields this:&lt;/p&gt;
 
-&lt;figure&gt;&lt;figcaption&gt;From Edward Tufte, *Visual Display of Quantitative Information*, page 92&lt;/figcaption&gt;&lt;img src=&quot;/assets/img/exports-imports.png&quot; /&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;figcaption&gt;From Edward Tufte, *Visual Display of Quantitative Information*, page 92&lt;/figcaption&gt;&lt;img src=&quot;theaibookshelf.com/assets/img/exports-imports.png&quot; /&gt;&lt;/figure&gt;
 
 &lt;h2 id=&quot;sidenotes-and-margin-notes&quot;&gt;Sidenotes and Margin notes&lt;/h2&gt;
 
@@ -436,8 +435,8 @@ etc..
 
 </description>
         <pubDate>Thu, 19 Feb 2015 00:00:00 -0500</pubDate>
-        <link>/articles/15/tufte-style-jekyll-blog</link>
-        <guid isPermaLink="true">/articles/15/tufte-style-jekyll-blog</guid>
+        <link>theaibookshelf.com/articles/15/tufte-style-jekyll-blog</link>
+        <guid isPermaLink="true">theaibookshelf.com/articles/15/tufte-style-jekyll-blog</guid>
         
         
       </item>

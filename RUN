@@ -1,0 +1,1 @@
+jekyll serve -H 0.0.0.0 --ssl-cert cert.cer --ssl-key key.pem --port 9003 --trace
