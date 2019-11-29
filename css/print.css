@@ -3,6 +3,8 @@
 
 @media only screen and (min-width: 400px) { .small_image { width: 90px; height: 120px; } }
 
+.hide_toc { font-size: 0.99em; }
+
 * { -webkit-transition: none !important; transition: none !important; }
 
 *, *:before, *:after { background: transparent !important; box-shadow: none !important; text-shadow: none !important; }

@@ -19,6 +19,8 @@
 
 @media only screen and (min-width: 400px) { .small_image { width: 90px; height: 120px; } }
 
+.hide_toc { font-size: 0.99em; }
+
 /** Syntax highlighting styles */
 .highlight { margin-bottom: 15px; }
 
@@ -378,7 +380,7 @@ img.mfp-img { width: auto; max-width: 100%; height: auto; display: block; line-h
 
 .sidebar__right { margin-bottom: 1em; }
 
-@media (min-width: 1024px) { .sidebar__right { position: sticky !important; /* added to make toc scroll with page */ float: right !important; /* added to make toc scroll with page */ top: 0; right: 0; width: 200px; margin-right: -200px; padding-left: 1em; padding-top: 1em !important; /* added to make toc scroll with page */ z-index: 10; } }
+@media (min-width: 1024px) { .sidebar__right { position: sticky !important; float: left !important; top: 0; right: 0; width: 200px; margin-left: -280px; padding-top: 0.5em !important; /* added to make toc scroll with page */ z-index: 10; } }
 
 .sidebar__right li { font-size: 0.65rem; line-height: 1.5; margin-top: 0rem; white-space: nowrap; }
 
@@ -817,7 +819,7 @@ a { color: #a00000; text-decoration: none; }
 
 p > a { color: #a00000; text-decoration: none; }
 
-body { width: 75%; margin-left: 7.5%; margin-right: auto; padding-left: 0.0%; font-family: "Ubuntu", sans-serif; color: #111; max-width: 1400px; counter-reset: sidenote-counter; }
+body { width: 80%; margin-left: 20%; margin-right: auto; padding-left: 0.0%; font-family: "Ubuntu", sans-serif; color: #111; max-width: 1400px; counter-reset: sidenote-counter; }
 
 h1 { font-weight: 400; margin-top: 1.568rem; margin-bottom: 1.568rem; font-size: 2.3rem; line-height: 0.784; }
 
@@ -867,9 +869,7 @@ th, td { font-size: 1.1rem; line-height: 1.71428571; }
 
 .table-caption { float: right; clear: right; margin-right: -60%; width: 50%; margin-top: 0; margin-bottom: 0; font-size: 1.0rem; line-height: 1.96; }
 
-/* -- End of Table Styling section --*/
-/* Basic Layout stuff --*/
-article { position: relative; padding: 1 rem 0rem 2.5rem 0rem; }
+article { position: relative; padding: 1rem 0rem 1.5rem 0rem; }
 
 section { padding-top: 1rem; padding-bottom: 1rem; }
 

@@ -29,6 +29,8 @@
     </script>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
 
   <!-- <link rel="stylesheet" type="text/css" href="/css/print.css" media="print"> -->
 
@@ -45,7 +47,28 @@ ga('send', 'pageview');
 <link rel="shortcut icon" type="image/png" href="/assets/img/aibookshelf.png">
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu" />
   <link rel="stylesheet" type="text/css" href="/css/tufte.css">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> 
+  <script>
+    $(document).ready(function(){
+    $('.hide_toc').click(function (e) {
+    e.stopPropagation();
+    $('.toc__menu').toggle("slide",{'direction' : 'up'}, 1000 );
+    $('.share_bar').toggle("slide",{'direction' : 'left'}, 1000 );
+    var el  = $('.hide_toc');
+    if(el.text() == ' hide ')
+    {
+    $('.hide_toc').removeClass( "fa-caret-left");
+    $('.hide_toc').addClass( "fa-caret-right");
+    }
+    else{
+    $('.hide_toc').removeClass( "fa-caret-right");
+    $('.hide_toc').addClass( "fa-caret-left");
+    }
+    el.text(el.text() == ' hide ' ? ' show ' : ' hide ');
+    });
+});
+  </script>
 </head>
 
   <!--- Header and nav template site-wide -->
@@ -74,7 +97,11 @@ ga('send', 'pageview');
         
           <aside class="sidebar__right sticky">
             <nav class="toc">
-              <header><h4 class="nav__title">On this page</h4></header>
+              <header>
+		<h4 class="nav__title">What's on this page?
+		  <i class="fas fa-caret-left fa-sm hide_toc" style="float: right;"> hide </i>
+		</h4>
+	      </header>
               
 <ul class="toc__menu">
   <li><a href="#">Tufte Style Jekyll Blog</a>
@@ -156,8 +183,7 @@ ga('send', 'pageview');
             </nav>
           </aside>
         
-
-      <h1>Tufte Style Jekyll Blog</h1>
+	  <h1>Tufte Style Jekyll Blog</h1>
 <p class="subtitle">February 19, 2015</p>
 
 <h2 id="introduction">Introduction</h2>
