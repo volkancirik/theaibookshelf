@@ -382,7 +382,7 @@ img.mfp-img { width: auto; max-width: 100%; height: auto; display: block; line-h
 
 @media (min-width: 1024px) { .sidebar__right { position: sticky !important; float: left !important; top: 0; right: 0; width: 25%; margin-left: -30.0%; padding-top: 1.2em !important; /* added to make toc scroll with page */ z-index: 10; } }
 
-.sidebar__right li { font-size: 0.65rem; line-height: 1.5; margin-top: 0rem; white-space: nowrap; }
+.sidebar__right li { font-size: 0.60rem; line-height: 1.5; margin-top: 0rem; white-space: nowrap; }
 
 @media (min-width: 1280px) { .sidebar__right { width: 25%; margin-right: 0%; } }
 
@@ -590,19 +590,19 @@ img.mfp-img { width: auto; max-width: 100%; height: auto; display: block; line-h
 
 @media (min-width: 1024px) { .toc__menu { font-size: 0.625em; } }
 
-.toc__menu a { display: block; padding: 0.15rem 0.75rem; color: #646464; font-weight: bold; line-height: 1.5; }
+.toc__menu a { display: block; padding: 0.1rem 0.6rem; color: #646464; font-weight: bold; line-height: 1.5; }
 
 .toc__menu a:hover { color: #111; }
 
-.toc__menu li ul > li a { padding-left: 0.30rem; font-weight: normal; }
+.toc__menu li ul > li a { padding-left: 0.05rem; font-weight: normal; }
 
-.toc__menu li ul li ul > li a { padding-left: 0.90rem; }
+.toc__menu li ul li ul > li a { padding-left: 0.60rem; }
 
-.toc__menu li ul li ul li ul > li a { padding-left: 1.50rem; }
+.toc__menu li ul li ul li ul > li a { padding-left: 1.25rem; }
 
-.toc__menu li ul li ul li ul li ul > li a { padding-left: 2.00rem; }
+.toc__menu li ul li ul li ul li ul > li a { padding-left: 1.75rem; }
 
-.toc__menu li ul li ul li ul li ul li ul > li a { padding-left: 2.50rem; }
+.toc__menu li ul li ul li ul li ul li ul > li a { padding-left: 2.25rem; }
 
 /* ========================================================================== UTILITY CLASSES ========================================================================== */
 /* Visibility ========================================================================== */
@@ -819,7 +819,11 @@ a { color: #a00000; text-decoration: none; }
 
 p > a { color: #a00000; text-decoration: none; }
 
-body { width: 80%; margin: auto; margin-bottom: 20px; padding-left: 0.0%; font-family: "Ubuntu", sans-serif; color: #111; max-width: 1400px; counter-reset: sidenote-counter; }
+body { width: 65%; margin: auto; margin-bottom: 20px; padding-left: 0.0%; font-family: "Ubuntu", sans-serif; color: #111; max-width: 1400px; counter-reset: sidenote-counter; }
+
+@media only screen and (min-width: 961px) { body { width: 65%; } }
+
+@media only screen and (max-width: 960px) { body { width: 95%; } }
 
 h1 { font-weight: 400; margin-top: 1.1rem; margin-bottom: 1.1rem; font-size: 1.9rem; line-height: 0.78; }
 
@@ -879,9 +883,9 @@ th, td { font-size: 0.9rem; line-height: 1.71428571; }
 
 .disqus { margin-bottom: 20px; }
 
-.articleabout { position: relative; padding: 2rem 20rem 0rem 20rem; text-align: justify; margin: auto; }
+.articleabout { position: relative; padding: 2rem 2rem 2rem 2rem; text-align: justify; margin: auto; }
 
-article { position: relative; padding: 2rem 10rem 0rem 10rem; margin: auto; }
+article { position: relative; padding: 2rem 2rem 2rem 2rem; margin: auto; }
 
 section { padding-top: 1rem; padding-bottom: 1rem; }
 
