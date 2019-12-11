@@ -111,11 +111,7 @@ ga('send', 'pageview');
         <ul>
           <li><a href="#the-sass-settings-file">The SASS settings file</a>
             <ul>
-              <li><a href="#test-for-toc-with-3-indentations">Test for TOC with 3 indentations</a>
-                <ul>
-                  <li><a href="#test-for-toc-with-4-indentations">Test for TOC with 4 indentations</a></li>
-                </ul>
-              </li>
+              <li><a href="#test-for-toc-with-3-indentations">Test for TOC with 3 indentations</a></li>
             </ul>
           </li>
         </ul>
@@ -220,10 +216,6 @@ $link-style: color; // choices are 'color' or 'underline'. Default is color usin
 <p>Any of these values can be changed in the <code class="highlighter-rouge">_sass/_settings.scss</code> file before the site is built. The default values are the ones from <em>tufte-css</em>.</p>
 
 <h4 id="test-for-toc-with-3-indentations">Test for TOC with 3 indentations</h4>
-
-<p>I have taken much of the actual <em>Tufte-css</em> files and modified them as necessary to accomodate the needs inherent in creating a Jekyll theme that has additional writing aids such as the Liquid tags. I have also turned the CSS file into a <a href="http://sass-lang.com">SASS</a> file (the .scss type).  This means that you can alter things like font choices, text color, background color, and underlining style by changing values in this file. When the Jekyll site is built using <code class="highlighter-rouge">jekyll build</code> the settings in this file will be compiled into the customized CSS file that the site uses.</p>
-
-<h5 id="test-for-toc-with-4-indentations">Test for TOC with 4 indentations</h5>
 
 <p>I have taken much of the actual <em>Tufte-css</em> files and modified them as necessary to accomodate the needs inherent in creating a Jekyll theme that has additional writing aids such as the Liquid tags. I have also turned the CSS file into a <a href="http://sass-lang.com">SASS</a> file (the .scss type).  This means that you can alter things like font choices, text color, background color, and underlining style by changing values in this file. When the Jekyll site is built using <code class="highlighter-rouge">jekyll build</code> the settings in this file will be compiled into the customized CSS file that the site uses.</p>
 
@@ -601,7 +593,7 @@ etc..
 
   
 
-  <div id="disqus_thread"></div>
+  <div class="disqus" id="disqus_thread"></div>
   <script>
     var disqus_config = function () {
       this.page.url = 'https://theaibookshelf.com/articles/tufte-style-jekyll-blog';
@@ -623,19 +615,15 @@ etc..
   <span class="print-footer">Tufte Style Jekyll Blog - February 19, 2015 - volkan cirik</span>
   <footer>
   <!-- <hr class="slender"> -->
-  <ul class="footer-links">
-    <li><a href="mailto:vcirik@cs.cmu.edu"><span class="icon-mail"></span></a></li>    
-    
-      <li>
-        <a href="//www.twitter.com/volkancirik"><span class="icon-twitter"></span></a>
-      </li>
-      
-      <li>
-        <a href="//github.com/volkancirik"><span class="icon-github"></span></a>
-      </li>
-      
-    <li><span>&copy; 2019&nbsp;<a href="/about">volkan cirik</a></span></li>
-   <li><span>A <a href="//github.com/clayh53/tufte-jekyll">Tufte-style</a> <a href="//jekyllrb.com">Jekyll website</a>.</span></li>
+  <a href="mailto:vcirik@cs.cmu.edu"><span class="icon-mail"></span></a>
+  
+  <a href="//www.twitter.com/volkancirik"><span class="icon-twitter"></span></a>
+  
+  <a href="//github.com/volkancirik"><span class="icon-github"></span></a>
+  
+  <span>&copy; 2019&nbsp;<a href="/about">volkan cirik</a> A <a href="//github.com/clayh53/tufte-jekyll">Tufte-style</a> <a href="//jekyllrb.com">Jekyll website</a>.
+  </span>
+   <!-- <li><span>A <a href="//github.com/clayh53/tufte-jekyll">Tufte-style</a> <a href="//jekyllrb.com">Jekyll website</a>.</span></li> -->
   </ul>
 <!-- <div class="credits"> -->
 <!-- <span>&copy; 2019 &nbsp;&nbsp;<a href="/about">volkan cirik</a></span><br> -->

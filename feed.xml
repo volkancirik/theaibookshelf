@@ -5,17 +5,28 @@
     <description>Chronological summaries of books on AI</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 29 Nov 2019 11:48:13 -0500</pubDate>
-    <lastBuildDate>Fri, 29 Nov 2019 11:48:13 -0500</lastBuildDate>
+    <pubDate>Wed, 11 Dec 2019 13:42:10 -0500</pubDate>
+    <lastBuildDate>Wed, 11 Dec 2019 13:42:10 -0500</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
-        <title>Cybernetics By Norbert Wiener</title>
+        <title>Psychology Of Intelligence</title>
+        <description>&lt;p&gt;Loading…&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 Nov 2019 00:00:00 -0400</pubDate>
+        <link>/articles/Psychology-of-Intelligence</link>
+        <guid isPermaLink="true">/articles/Psychology-of-Intelligence</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Cybernetics</title>
         <description>&lt;p&gt;loading…&lt;/p&gt;
 </description>
         <pubDate>Tue, 01 Oct 2019 00:00:00 -0400</pubDate>
-        <link>/articles/cybernetics-by-norbert-wiener</link>
-        <guid isPermaLink="true">/articles/cybernetics-by-norbert-wiener</guid>
+        <link>/articles/cybernetics</link>
+        <guid isPermaLink="true">/articles/cybernetics</guid>
         
         
       </item>
@@ -56,10 +67,6 @@ $link-style: color; // choices are 'color' or 'underline'. Default is color usin
 &lt;p&gt;Any of these values can be changed in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_sass/_settings.scss&lt;/code&gt; file before the site is built. The default values are the ones from &lt;em&gt;tufte-css&lt;/em&gt;.&lt;/p&gt;
 
 &lt;h4 id=&quot;test-for-toc-with-3-indentations&quot;&gt;Test for TOC with 3 indentations&lt;/h4&gt;
-
-&lt;p&gt;I have taken much of the actual &lt;em&gt;Tufte-css&lt;/em&gt; files and modified them as necessary to accomodate the needs inherent in creating a Jekyll theme that has additional writing aids such as the Liquid tags. I have also turned the CSS file into a &lt;a href=&quot;http://sass-lang.com&quot;&gt;SASS&lt;/a&gt; file (the .scss type).  This means that you can alter things like font choices, text color, background color, and underlining style by changing values in this file. When the Jekyll site is built using &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll build&lt;/code&gt; the settings in this file will be compiled into the customized CSS file that the site uses.&lt;/p&gt;
-
-&lt;h5 id=&quot;test-for-toc-with-4-indentations&quot;&gt;Test for TOC with 4 indentations&lt;/h5&gt;
 
 &lt;p&gt;I have taken much of the actual &lt;em&gt;Tufte-css&lt;/em&gt; files and modified them as necessary to accomodate the needs inherent in creating a Jekyll theme that has additional writing aids such as the Liquid tags. I have also turned the CSS file into a &lt;a href=&quot;http://sass-lang.com&quot;&gt;SASS&lt;/a&gt; file (the .scss type).  This means that you can alter things like font choices, text color, background color, and underlining style by changing values in this file. When the Jekyll site is built using &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll build&lt;/code&gt; the settings in this file will be compiled into the customized CSS file that the site uses.&lt;/p&gt;
 
