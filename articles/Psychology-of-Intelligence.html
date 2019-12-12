@@ -51,22 +51,26 @@ ga('send', 'pageview');
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> 
   <script>
     $(document).ready(function(){
-    $('.hide_toc').click(function (e) {
+    $('.nav__title').click(function (e) {
     e.stopPropagation();
-    $('.toc__menu').toggle("slide",{'direction' : 'up'}, 1000 );
-    $('.share_bar').toggle("slide",{'direction' : 'left'}, 1000 );
+    $('.toc__menu').toggle("slide",{'direction' : 'up'}, 300 );
+    $('.share_bar').toggle("slide",{'direction' : 'left'}, 300 );
     var el  = $('.hide_toc');
     if(el.text() == ' hide ')
     {
     $('.hide_toc').removeClass( "fa-caret-left");
     $('.hide_toc').addClass( "fa-caret-right");
+    $('.sidebar__right').css("opacity", "0.40");
     }
     else{
     $('.hide_toc').removeClass( "fa-caret-right");
     $('.hide_toc').addClass( "fa-caret-left");
+    $('.sidebar__right').css("opacity", "1.0");
     }
     el.text(el.text() == ' hide ' ? ' show ' : ' hide ');
     });
+
+    $( ".nav__title" ).trigger( "click" );
 });
   </script>
 </head>
@@ -178,7 +182,7 @@ ga('send', 'pageview');
   
   <a href="//github.com/volkancirik"><span class="icon-github"></span></a>
   
-  <span>&copy; 2019&nbsp;<a href="/about">volkan cirik</a> A <a href="//github.com/clayh53/tufte-jekyll">Tufte-style</a> <a href="//jekyllrb.com">Jekyll website</a>.
+  <span>&copy; 2019&nbsp;<a href="/about">volkan cirik</a> [a <a href="//github.com/clayh53/tufte-jekyll">tufte</a>-style <a href="//jekyllrb.com">jekyll website</a>]
   </span>
    <!-- <li><span>A <a href="//github.com/clayh53/tufte-jekyll">Tufte-style</a> <a href="//jekyllrb.com">Jekyll website</a>.</span></li> -->
   </ul>
