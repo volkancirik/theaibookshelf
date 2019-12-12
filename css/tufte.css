@@ -160,16 +160,16 @@
 /* Grid ========================================================================== */
 /* Other ========================================================================== */
 /* Share Bar */
-.share_bar { border-top: 1px solid #a00000; font-size: 10px; text-align: center; font-weight: bold; }
+.share_bar { border-top: 1px solid #325D79; font-size: 9px; text-align: center; font-weight: bold; }
 
 /* Title */
-.share_title { margin-bottom: 3px; color: #a00000; font-weight: bold; font-size: 1.2em; background: #ffffff; border-top-left-radius: 4px; border-top-right-radius: 4px; }
+.share_title { margin-bottom: 2px; color: #325D79; font-size: 1.25em; background: #ffffff; border-top-left-radius: 4px; border-top-right-radius: 4px; }
 
 /* All buttons */
 /* Each button */
-.share-button { margin: 0px; margin-bottom: 0px; margin-right: 5px; padding: 10px 10px 10px 10px; }
+.share-button { margin-bottom: 0px; margin-right: 4px; padding: 8px 8px 8px 8px; }
 
-.share-button:hover { opacity: 1; color: #ffffff; }
+.share-button:hover { opacity: 0.85; color: #ffffff; }
 
 /* Facebook button */
 .fa-facebook-official { color: #3b5998; }
@@ -577,14 +577,14 @@ img.mfp-img { width: auto; max-width: 100%; height: auto; display: block; line-h
 
 @media (max-width: 1023px) { .nav__list input:checked ~ .nav__items { -webkit-transition: 0.5s ease-in-out; transition: 0.5s ease-in-out; max-height: 9999px; /* exaggerate max-height to accommodate tall lists*/ overflow: visible; opacity: 1; margin-top: 1em; -webkit-transform: translate(0, 0); -ms-transform: translate(0, 0); transform: translate(0, 0); } }
 
-.nav__title { margin: 0; padding: 0.2rem 0.45rem; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 1.25em; font-weight: bold; text-align: left; }
+.nav__title { margin: 0; padding: 0.2rem 0.45rem; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 0.625em; font-weight: bold; text-align: left; }
 
 .nav__sub-title { display: block; margin: 0.5rem 0; padding: 0.25rem 0; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 1.563em; font-weight: bold; text-transform: uppercase; border-bottom: 1px solid #333333; }
 
 /* Table of contents navigation ========================================================================== */
-.toc { font-family: "Ubuntu", sans-serif; color: #7a8288; background-color: #ffffff; border: 1px solid #a00000; border-radius: 4px; -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125); box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125); }
+.toc { font-family: "Ubuntu", sans-serif; color: #7a8288; background-color: #ffffff; border: 1px solid #325D79; border-radius: 4px; -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125); box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125); }
 
-.toc .nav__title { color: #a00000; font-size: 0.75em; background: #ffffff; border-top-left-radius: 4px; border-top-right-radius: 4px; }
+.toc .nav__title { color: #325D79; font-size: 0.625em; background: #ffffff; border-top-left-radius: 4px; border-top-right-radius: 4px; }
 
 .toc__menu { margin: 0; padding: 0; width: 100%; list-style: none; font-size: 0.625em; }
 
@@ -815,11 +815,11 @@ html { text-align: baseline; font-size: 11px; -webkit-font-smoothing: antialiase
 
 .mathblock { font-size: 0.7rem; }
 
-a { color: #a00000; text-decoration: none; }
+a { color: #325D79; text-decoration: none; }
 
-p > a { color: #a00000; text-decoration: none; }
+p > a { color: #325D79; text-decoration: none; }
 
-body { width: 65%; margin: auto; margin-bottom: 20px; padding-left: 0.0%; font-family: "Ubuntu", sans-serif; color: #111; max-width: 1400px; counter-reset: sidenote-counter; }
+body { width: 65%; margin: auto; margin-bottom: 13px; padding-left: 0.0%; font-family: "Ubuntu", sans-serif; color: #111; max-width: 1400px; counter-reset: sidenote-counter; }
 
 @media only screen and (min-width: 961px) { body { width: 65%; } }
 
@@ -841,11 +841,11 @@ p, ol, ul { font-size: 0.9rem; }
 
 p, li { line-height: 2rem; margin-top: 1.5rem; padding-right: 2rem; vertical-align: baseline; }
 
-blockquote p { font-size: 0.7rem; line-height: 1.78; margin-top: 1.78rem; margin-bottom: 1.78rem; width: 45%; padding-left: 2.5%; padding-right: 2.5%; }
+blockquote p { font-size: 0.7rem; line-height: 1.78; margin-top: 1.78rem; margin-bottom: 1.78rem; width: 95%; padding-left: 2.5%; padding-right: 2.5%; }
 
-footer { opacity: 0.9; width: 100%; background-color: #DDDDDD; position: fixed; bottom: 0px; left: 0px; right: 0px; height: 20px; margin-bottom: 0px; vertical-align: text-bottom; padding-top: 0rem; }
+footer { font-size: 11px; opacity: 0.85; width: 100%; background-color: #DDDDDD; position: fixed; bottom: 0px; left: 0px; right: 0px; height: 13px; margin-bottom: 0px; vertical-align: text-bottom; padding-top: 0rem; }
 
-blockquote { width: 45%; text-align: right; }
+blockquote { width: 85%; text-align: right; }
 
 .sans { font-family: "Gill Sans", "Gill Sans MT", "Lato", Calibri, sans-serif; letter-spacing: .03em; }
 
@@ -889,7 +889,7 @@ article { position: relative; padding: 2rem 2rem 2rem 2rem; margin: auto; }
 
 section { padding-top: 1rem; padding-bottom: 1rem; }
 
-ul, ol { width: 45%; -webkit-padding-start: 5%; -webkit-padding-end: 5%; list-style-type: none; }
+ul, ol { width: 80%; -webkit-padding-start: 5%; -webkit-padding-end: 5%; list-style-type: none; }
 
 figure, figure img.maincolumn { max-width: 55%; -webkit-margin-start: 0; -webkit-margin-end: 0; margin-bottom: 3em; }
 
@@ -907,11 +907,11 @@ blockquote .sidenote, blockquote .marginnote { margin-right: -79%; }
 
 .sidenote-number { counter-increment: sidenote-counter; }
 
-.sidenote-number:after, .sidenote:before { content: counter(sidenote-counter) " "; font-family: et-bembo-roman-old-style; color: #a00000; position: relative; vertical-align: baseline; }
+.sidenote-number:after, .sidenote:before { content: counter(sidenote-counter) " "; font-family: et-bembo-roman-old-style; color: #325D79; position: relative; vertical-align: baseline; }
 
 .sidenote-number:after { content: counter(sidenote-counter); font-size: 0.65rem; top: -0.5rem; left: 0.1rem; }
 
-.sidenote:before { content: counter(sidenote-counter) ". "; color: #a00000; top: 0rem; }
+.sidenote:before { content: counter(sidenote-counter) ". "; color: #325D79; top: 0rem; }
 
 p, footer, div.table-wrapper, div.mathblock { width: 100%; }
 
@@ -926,7 +926,7 @@ div.table-wrapper { overflow-x: auto; }
 
 .marginnote code, .sidenote code { font-size: 1rem; }
 
-pre, pre code, p pre code { width: 52.5%; padding-left: 2.5%; overflow-x: auto; }
+pre, pre code, p pre code { width: 85.0%; padding-left: 2.5%; overflow-x: auto; }
 
 .fullwidth, li.listing div { max-width: 90%; }
 
@@ -940,7 +940,7 @@ label.sidenote-number { display: inline; }
 
 label.margin-toggle:not(.sidenote-number) { display: none; }
 
-@media (max-width: 760px) { label.margin-toggle:not(.sidenote-number) { display: inline; color: #a00000; }
+@media (max-width: 760px) { label.margin-toggle:not(.sidenote-number) { display: inline; color: #325D79; }
   .sidenote, .marginnote { display: none; }
   .margin-toggle:checked + .sidenote, .margin-toggle:checked + .marginnote { display: block; float: left; left: 1rem; clear: both; width: 95%; margin: 1rem 2.5%; vertical-align: baseline; position: relative; }
   label { cursor: pointer; }
@@ -952,7 +952,7 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
 
 /*--- End of Basic Layout stuff from tufte.css ---*/
 /* -- Jekyll specific styling --*/
-.contrast { color: #a00000; }
+.contrast { color: #325D79; }
 
 .smaller { font-size: 80%; }
 
@@ -962,7 +962,7 @@ nav.group a.active:before { content: "\0003c\000a0"; }
 
 nav.group a.active:after { content: "\000a0\0003e"; }
 
-header > nav a { font-size: 1.2rem; font-family: "Gill Sans", "Gill Sans MT", "Lato", Calibri, sans-serif; letter-spacing: 0.15em; text-transform: uppercase; color: #a00000; padding-top: 1.5rem; text-decoration: none; margin: auto; padding-right: 2rem; vertical-align: baseline; }
+header > nav a { font-size: 1.2rem; font-family: "Gill Sans", "Gill Sans MT", "Lato", Calibri, sans-serif; letter-spacing: 0.15em; text-transform: uppercase; color: #325D79; padding-top: 1.5rem; text-decoration: none; margin: auto; padding-right: 0rem; vertical-align: baseline; }
 
 header > nav a img { height: 2.2rem; position: relative; max-width: 100%; vertical-align: middle; }
 
@@ -974,7 +974,7 @@ ul.footer-links li { display: inline; padding: 0.5rem 0.25rem; }
 
 .credits { font-family: "Gill Sans", "Gill Sans MT", "Lato", Calibri, sans-serif; }
 
-.credits a { color: #a00000; }
+.credits a { color: #325D79; }
 
 body.full-width, .content-listing, ul.content-listing li.listing { width: 90%; margin-left: auto; margin-right: auto; padding: 0% 5%; }
 
@@ -1015,7 +1015,7 @@ hr.slender { border: 0; height: 1px; margin-top: 1.4rem; margin-bottom: 1.4rem; 
 /* --- Icomoon icon fonts CSS --*/
 @font-face { font-family: 'icomoon'; src: url("../fonts/icomoon.eot?rgwlb8"); src: url("../fonts/icomoon.eot?#iefixrgwlb8") format("embedded-opentype"), url("../fonts/icomoon.woff?rgwlb8") format("woff"), url("../fonts/icomoon.ttf?rgwlb8") format("truetype"), url("../fonts/icomoon.svg?rgwlb8#icomoon") format("svg"); font-weight: normal; font-style: normal; }
 
-[class^="icon-"], [class*=" icon-"] { font-family: 'icomoon'; speak: none; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; line-height: 1; color: #a00000; /* Better Font Rendering =========== */ -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+[class^="icon-"], [class*=" icon-"] { font-family: 'icomoon'; speak: none; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; line-height: 1; color: #325D79; /* Better Font Rendering =========== */ -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
 .icon-pencil:before { content: "\e600"; }
 
